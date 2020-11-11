@@ -1,0 +1,46 @@
+/*清除元素默认的内外边距  */
+* {
+    margin: 0;
+    padding: 0
+}
+/*让所有斜体 不倾斜*/
+em,
+i {
+    font-style: normal;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*去掉列表前面的小点*/
+li {
+    list-style: none;
+}
+/*图片视频没有边框   去掉图片视频底侧的空白缝隙*/
+img,
+video {
+    border: 0;  /*ie6*/
+    vertical-align: middle;
+}
+/*让button 按钮 变成小手*/
+button {
+    cursor: pointer;
+}
+/*取消链接的下划线*/
+a {
+    color: #666;
+    text-decoration: none;
+}
+/*清除浮动*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+/*版心*/

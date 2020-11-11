@@ -1,0 +1,106 @@
+.entertainHead {
+    height: 1000px;
+    width: 1519.2px;
+    position: relative;
+    background-image: url(../media/entertain/entertainHeadBG.jpg);
+    /* background-position: center top; */
+    background-repeat: no-repeat;
+}
+
+.app .footer {
+    margin-top: 0px;
+}
+
+.entertainHeadCont {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    height: 1000px;
+    /* background-color: pink; */
+}
+
+.entertainHeadCont .logo {
+    width: 147px;
+    height: 43px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 55px;
+    background-image: url(../media/entertain/logo.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+
+}
+
+.entertainHeadCont .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.zhaodaiImg {
+    width: 490px;
+    height: 351px;
+    position: absolute;
+    left: 50%;
+    margin-left: -286px;
+    top: 134px;
+    background-image: url(../media/entertain/zhaodaiImg.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* -webkit-animation: slogan 0.6s ease-out 0s both; */
+    /* animation: slogan 0.6s ease-out 0s both; */
+    /* opacity: 0; */
+    /* background-color: blue; */
+}
+
+.xiaoren {
+    width: 149px;
+    height: 348px;
+    position: absolute;
+    left: 50%;
+    margin-left: -74.5px;
+    top: 650px;
+    background-image: url(../media/entertain/zhaodaixiaoren.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* opacity: 0; */
+}
+
+.zhaodaiBtnL {
+    width: 162px;
+    height: 162px;
+    position: absolute;
+    left: 296px;
+    top: 560px;
+    background-image: url(../media/entertain/entertainLBTN.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    cursor: pointer;   
+    /* opacity: 0; */
+}
+
+.zhaodaiBtnR {
+    width: 162px;
+    height: 162px;
+    position: absolute;
+    right: 296px;
+    top: 560px;
+    background-image: url(../media/entertain/entertainBtnR.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    /* opacity: 0; */
+}
+
+/* .zhaodaiBtnL:hover,
+.zhaodaiBtnR:hover {
+    transform: scale(1.1);
+    transition-duration: .2s;
+} */
+
+/* .zhaodaiBtnL,
+.zhaodaiBtnR {
+    transition-duration: .2s;
+} */
